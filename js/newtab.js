@@ -58,7 +58,6 @@ function getBookmarks(bookmarks) {
         if (bookmark.children && bookmark.id) {
             var url = 'chrome://bookmarks/?id=' + bookmark.id;
             //menu.append('<li><a href="' + url + '" title="' + bookmark.title + '">' + bookmark.title + '</a></li>');
-            //menu.append('<li><div data-url="' + url + '" class="navbar-text folder" title="' + bookmark.title + '"><i style="background:url(../images/folder-icon-32.png) no-repeat"></i><span>' + bookmark.title + '</span></div></li>');
             menu.append('<li><a href="' + url + '" data-url="' + url + '" class="navbar-text folder" title="' + bookmark.title + '"><i class="folder-img"></i><span>' + bookmark.title + '</span></a></li>');
         }
     }
