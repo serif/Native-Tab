@@ -4,11 +4,11 @@ Simple speed dial for Chrome. Minimal, private, no-frills. ⟨**βETA**⟩
 
 ![](demo/demo.gif)
 
+- Does not show 'recommended pages' or ads
 - Collects no information about the user
 - Uses only native browser functionality
 - Does not connect to third-party servers
 - Uses built-in Chrome bookmarks
-- Does not show 'recommended pages' or ads
 - Adapts automatically to system themes
 - Completely non-commercial project
 
