@@ -12,7 +12,7 @@ Simple speed dial for Chrome. Minimal, private, no-frills. ⟨**βETA**⟩
 - Adapts automatically to system themes
 - Completely non-commercial project
 
-## Caveats
+## Operation
 
 - Use cmd+D / ctrl+D to add a bookmark for the current tab
 - Bookmark management is not yet built-in
