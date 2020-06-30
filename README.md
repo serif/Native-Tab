@@ -1,6 +1,6 @@
 # ![](icons/icon-128.png) Native Tab for Chrome
 
-![](images/demo.gif)
+![](demo/demo.gif)
 
 - Uses built-in Chrome bookmarks
 - Collects no information about the user
