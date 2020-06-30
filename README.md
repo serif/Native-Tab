@@ -1,10 +1,11 @@
 # ![](icons/icon-128.png) Native Tab
 
-Simple speed dial for Chrome. Native features only. Minimal, private, no-frills. [ βETA ]
+Simple speed dial for Chrome. Minimal, private, no-frills. [ βETA ]
 
 ![](demo/demo.gif)
 
 - Collects no information about the user
+- Uses only native browser functionality
 - Does not connect to third-party servers
 - Uses built-in Chrome bookmarks
 - Does not show 'recommended pages' or ads
