@@ -1,4 +1,4 @@
-# ![](icons/icon-128.png) Native-Tab
+# ![](icons/icon-128.png) Native Tab for Chrome
 
 ![](images/demo.gif)
 
