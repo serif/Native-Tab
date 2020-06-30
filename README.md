@@ -1,4 +1,6 @@
-# ![](icons/icon-128.png) Native Tab for Chrome
+# ![](icons/icon-128.png) Native Tab
+
+Speed dial for Chrome-based browsers
 
 ![](demo/demo.gif)
 
