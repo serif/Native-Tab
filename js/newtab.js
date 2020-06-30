@@ -50,10 +50,7 @@ function getBookmarks(bookmarks) {
             
             //chrome-search://ntpicon/?size=32%401x&url=https%3A%2F%2Fwww.youtube.com%2F
             //var favicon = 'chrome-search://ntpicon/?size=32%401x&url=' + encodeURIComponent(bookmark.url);
-            //chrome://favicon/size/32@1x/
-            //var favicon = 'chrome://favicon/' + bookmark.url;
             var favicon = 'chrome://favicon/size/32@1x/' + bookmark.url;
-            //menu.append('<li><i style="background:url(' + favicon + ') no-repeat"></i><a href="' + bookmark.url + '" title="' + bookmark.title + '">' + bookmark.title + '</a></li>');
             menu.append('<li><a href="' + bookmark.url + '" data-url=' + bookmark.url + ' title="' + bookmark.title + '"><i style="background:url(' + favicon + ') no-repeat"></i>' + bookmark.title + '</a></li>');
         }
 

@@ -18,6 +18,9 @@
   .folder-img {
     background:url(../images/folder-light.png) no-repeat;
   }
+  .head-label {
+    color: rgba(186, 187, 189, 1);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +47,14 @@
   .folder-img {
     background:url(../images/folder-dark.png) no-repeat;
   }
+  .head-label {
+    color: rgba(53,54,58,1);
+  }
+}
+
+.head-label {
+  width: 100%;
+  text-align: center;
 }
 
 .navbar div.container-fluid {
