@@ -25,7 +25,7 @@ Simple speed dial for Chrome. Minimal, private, no-frills. ⟨**βETA**⟩
 
 ## Install
 
-While in beta, this will not be added to the Chrome Web Store. To try this in the mean time:
+While in βeta, this will not be added to the Chrome Web Store. To try this in the mean time:
 
 - Download and extract the zip where you want to keep it
 - In Chrome click the puzzle piece, then Manage Extensions (or ⋮ (menu) > Settings > Extensions)
