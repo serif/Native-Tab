@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>New Tab</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/newtab.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/newtab.js"></script>
+</head>
+<body class="dark-theme use-white-add-icon mac"
+	style="--tile-title-color:rgba(248,249,250,1); --icon-background-color:rgba(32,33,36,1);">
+	<!-- <div class="container"> -->
+	  <div class="container-fluid" style="width: 800px;">
+
+		<!--div class="head-links" style="width:100%; text-align:center;">
+			<a href="chrome://bookmarks/">Bookmark Manager</a> | 
+			<a href="chrome://history/">History</a> |
+			<a href="chrome://downloads/">Downloads</a> |
+			<a href="chrome://bookmarks/">Extensions</a> |
+			<a href="chrome://memory-redirect/">Memory</a> |
+			<a href="chrome://bookmarks/">Version</a> |
+			<a href="chrome://apps/">Apps</a>
+		</!--div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bookmark-navbar-collapse">
+	      <ul class="nav navbar-nav" id="menu-items">
+	        <!-- <li><a href="#">Link</a></li> -->
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	<!-- </div> -->
+
+<!--
+
+<div id="most-visited">
+	<div id="mv-tiles" style="width: 448px; opacity: 1;">
+		<div class="grid-tile-container" rid="1" add="false" index="0" style="transform: translate(0px, 0px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="1" data-pos="0"
+					href="https://www.reddit.com/" aria-label="Reddit" title="Reddit" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fwww.reddit.com%2F">
+						<div class="md-title" style="direction: ltr;"><span>Reddit</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut Reddit"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="2" add="false" index="1" style="transform: translate(112px, 0px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="2" data-pos="1"
+					href="https://www.youtube.com/" aria-label="YouTube" title="YouTube" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fwww.youtube.com%2F">
+						<div class="md-title" style="direction: ltr;"><span>YouTube</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut YouTube"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="3" add="false" index="2" style="transform: translate(224px, 0px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="3" data-pos="2"
+					href="https://www.netflix.com/browse" aria-label="Netflix" title="Netflix" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fwww.netflix.com%2Fbrowse">
+						<div class="md-title" style="direction: ltr;"><span>Netflix</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut Netflix"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="4" add="false" index="3" style="transform: translate(336px, 0px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="4" data-pos="3"
+					href="https://voice.google.com/" aria-label="Voice" title="Voice" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fvoice.google.com%2F">
+						<div class="md-title" style="direction: ltr;"><span>Voice</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut Voice"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="5" add="false" index="4" style="transform: translate(0px, 128px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="5" data-pos="4"
+					href="https://www.pornhub.com/" aria-label="Pornhub" title="Pornhub" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fwww.pornhub.com%2F">
+						<div class="md-title" style="direction: ltr;"><span>Pornhub</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut Pornhub"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="6" add="false" index="5" style="transform: translate(112px, 128px);">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="6" data-pos="5"
+					href="https://store.playstation.com/en-us/product/UP1003-CUSA15594_00-DOOM199300000000"
+					aria-label="PlayStation" title="PlayStation" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fstore.playstation.com%2Fen-us%2Fproduct%2FUP1003-CUSA15594_00-DOOM199300000000">
+						<div class="md-title" style="direction: ltr;"><span>PlayStation</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut PlayStation"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="7" add="false" index="6"
+			style="transform: translate(224px, 128px); display: block;">
+			<div class="grid-tile" draggable="true"><a class="md-tile" data-rid="7" data-pos="6"
+					href="https://github.com/" aria-label="GitHub" title="GitHub" draggable="false">
+					<div class="md-tile-inner"><img class="md-icon" title="" alt=""
+							src="chrome-search://ntpicon/?size=24%401x&amp;url=https%3A%2F%2Fgithub.com%2F">
+						<div class="md-title" style="direction: ltr;"><span>GitHub</span></div>
+					</div><button class="md-menu md-edit-menu" title="Edit shortcut"
+						aria-label="Edit shortcut GitHub"></button>
+				</a></div>
+		</div>
+		<div class="grid-tile-container" rid="-1" add="true"
+			style="transform: translate(336px, 128px); display: block;">
+			<div class="grid-tile"><a class="md-tile" data-rid="-1" data-pos="7" aria-label="Add shortcut"
+					title="Add shortcut" tabindex="0">
+					<div class="md-tile-inner">
+						<div class="md-icon md-add-icon"></div>
+						<div class="md-title" style="direction: ltr;"><span>Add shortcut</span></div>
+					</div>
+				</a></div>
+		</div>
+	</div>
+</div>
+-->
+
+</body>
+</html>

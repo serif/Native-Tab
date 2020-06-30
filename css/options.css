@@ -1,0 +1,85 @@
+/*@font-face {
+  font-family: 'Montserrat';
+  src:
+      local('font/Montserrat-Regular'),
+      url('font/Montserrat-Regular.ttf');
+}*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+}
+
+#logo {
+  float: left;
+}
+
+#extension-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.field-header {
+  border-bottom: solid 1px #e6e6e6;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 0 2px 0;
+  margin-top: 10px;
+}
+
+.search-form-group {
+  margin-top: 15px;
+}
+
+#chrome-pages div {
+  padding-bottom: 2px;
+}
+
+#chrome-pages div:nth-child(1) {
+  margin-top: 15px;
+}
+
+#chrome-pages span {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#status {
+  float: left;
+  margin-top: 10px;
+}
+
+#buttons {
+  text-align: right;
+}
+
+
+/* Bootstrap Override */
+
+.panel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.panel > .panel-heading {
+  background-image: none;
+  background-color: #FFB564;
+  color: #333;
+  height: 90px;
+  padding: 15px;
+  vertical-align: middle;
+  margin: auto;
+  text-align: center;
+}
+
+.panel-heading > .panel-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+}
