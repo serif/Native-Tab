@@ -1,6 +1,6 @@
 # ![](icons/icon-128.png) Native Tab
 
-Speed dial for Chrome-based browsers
+Simple speed dial for Chrome. Minimal, private, no-frills.
 
 ![](demo/demo.gif)
 
