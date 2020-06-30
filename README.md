@@ -31,7 +31,7 @@ While in beta, this will not be added to the Chrome Web Store. To try this in th
 - In Chrome click the puzzle piece, then Manage Extensions (or ⋮ (menu) > Settings > Extensions)
 - Click the [Load unpacked] button and find the extracted extension
 
-## Acknowledgement
+## Acknowledgements
 
 - This extension began with [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia?hl=en) by oeg as a base. Instead of my extension, you can use that one to point your new tab page to `chrome://bookmarks/`.
 - Logo by [Land-of-Web](https://www.land-of-web.com)
